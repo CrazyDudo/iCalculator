@@ -1,4 +1,4 @@
-<view class="calculator">
+<view class="calculator {{theme}}">
   <view class="display">{{display}}</view>
   <view class="keypad">
     <view class="row">

@@ -4,7 +4,8 @@ Page({
     currentValue: '0',
     previousValue: '',
     operator: '',
-    shouldResetDisplay: false
+    shouldResetDisplay: false,
+    theme: 'dark'
   },
 
   onDigit: function(e) {
@@ -82,7 +83,8 @@ Page({
   },
 
   onTheme: function() {
-    // 实现主题切换逻辑
+    var newTheme = this.data.theme === 'dark' ? 'light' : 'dark';
+    this.setData({ theme: newTheme });
   },
 
   calculate: function(a, b, operator) {
