@@ -1,0 +1,34 @@
+<view class="calculator">
+  <view class="display">{{display}}</view>
+  <view class="keypad">
+    <view class="row">
+      <view class="btn function" bindtap="onClear">清空</view>
+      <view class="btn operator" bindtap="onOperator" data-operator="*">×</view>
+      <view class="btn operator" bindtap="onOperator" data-operator="/">÷</view>
+      <view class="btn function" bindtap="onDelete">删除</view>
+    </view>
+    <view class="row">
+      <view class="btn" bindtap="onDigit" data-digit="7">7</view>
+      <view class="btn" bindtap="onDigit" data-digit="8">8</view>
+      <view class="btn" bindtap="onDigit" data-digit="9">9</view>
+      <view class="btn operator" bindtap="onOperator" data-operator="+">+</view>
+    </view>
+    <view class="row">
+      <view class="btn" bindtap="onDigit" data-digit="4">4</view>
+      <view class="btn" bindtap="onDigit" data-digit="5">5</view>
+      <view class="btn" bindtap="onDigit" data-digit="6">6</view>
+      <view class="btn operator" bindtap="onOperator" data-operator="-">-</view>
+    </view>
+    <view class="row">
+      <view class="btn" bindtap="onDigit" data-digit="1">1</view>
+      <view class="btn" bindtap="onDigit" data-digit="2">2</view>
+      <view class="btn" bindtap="onDigit" data-digit="3">3</view>
+      <view class="btn equal" bindtap="onEqual">=</view>
+    </view>
+    <view class="row">
+      <view class="btn function" bindtap="onTheme">皮肤</view>
+      <view class="btn" bindtap="onDigit" data-digit="0">0</view>
+      <view class="btn" bindtap="onDigit" data-digit=".">.</view>
+    </view>
+  </view>
+</view>
