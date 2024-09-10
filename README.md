@@ -2,6 +2,13 @@
 微信小程序版计算器
 
 
+dark:    
+
+![image](https://github.com/user-attachments/assets/bba8c900-d8ea-4fe0-9739-002761cb6fd7)
 
 
-![1725994373898](https://github.com/user-attachments/assets/62b267eb-2157-4ab4-b724-eb0383455ade)
+
+light:    
+
+![image](https://github.com/user-attachments/assets/04bccc7a-edec-4fc7-b649-c9e62c7b8db4)
+
